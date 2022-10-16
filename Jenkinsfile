@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/mourya2175/ModuloChallenge.git'
+                git 'https://github.com/mourya2175/QAChallenge.git'
 
                 // Run Maven on a Unix agent.
                bat "mvn test"
